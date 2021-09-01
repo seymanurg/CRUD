@@ -1,0 +1,50 @@
+.arkaplan{
+    background-color: beige;
+}
+.box1{
+    background-color: darkslategrey;
+    padding: 10px;
+}
+.box2{
+    background-color: darkseagreen;
+    padding: 10px;
+}
+.title{
+    font-family: sans-serif;
+    font-size: 60px;
+    font-weight: bold;
+    text-align: center;
+}
+.table{
+    width: 1400px;
+    text-align: center;
+    padding-right: 30px;
+}
+.text-box{
+    width: 350px;
+    height: 20px;
+}
+.buton{
+    background-color: cornsilk;
+    text-decoration-line: none;
+    color: darkolivegreen;
+    font-size: 14px;
+    font-weight: bold;
+    border-style: none;
+    width: 75px;
+    height: 30px;
+    display: inline;
+}
+
+.form{
+    padding-top: 30px;
+    text-align: center;
+}
+.box3{
+    display: inline;
+    padding: 20px;
+}
+.kayitText{
+    width: 300px;
+    height: 30px;
+}

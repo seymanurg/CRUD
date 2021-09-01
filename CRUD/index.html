@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="stil.css" />
+  </head>
+  <body class="arkaplan">
+    <div class="box1">
+      <div class="box2">
+        <div class="box3">
+          <h3 class="title">CRUD</h3>
+          <table class="table">
+            <thead>
+              <tr>
+                <th>İsim</th>
+                <th>Kullanıcı Adı</th>
+                <th>E-mail</th>
+                <th>İşlem</th>
+              </tr>
+            </thead>
+            <tbody id="userTable" class="userTable">
+              
+            </tbody>
+          </table>
+          <form class="form">
+            <div class="box3">
+              <input
+                class="kayitText"
+                type="text"
+                id="name"
+                placeholder="İsminizi Giriniz"
+              />
+            </div>
+            <div class="box3">
+              <input
+                class="kayitText"
+                type="text"
+                id="username"
+                placeholder="Kullanıcı Adınızı Giriniz"
+              />
+            </div>
+            <div class="box3">
+              <input
+                class="kayitText"
+                type="text"
+                id="email"
+                placeholder="Email Giriniz"
+              />
+            </div> 
+            <div class="box3">
+              <button class="buton" onclick="createUser()">Kayıt</button>  
+              <button class="buton" onclick="refreshTable()"> Yenile </button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <script src="custom.js"></script>
+  </body>
+</html>
